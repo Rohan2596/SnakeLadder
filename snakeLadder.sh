@@ -9,3 +9,5 @@ PLAYER=1;
 START_POSITION=0;
 END_POSITION=100;
 
+rollDice=$(( RANDOM%6+1 ));
+
