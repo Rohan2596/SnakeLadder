@@ -20,7 +20,10 @@ then
 elif [ $checkPosition -eq 1 ] && [ $START_POSITION -ge 0 ]
 then
    	START_POSITION=$(( $START_POSITION - $rollDice ))
-
+ if [[ $START_POSITION -le 0 ]]
+ then
+ START_POSITION=0
+ fi 
 else
    	START_POSITION=$START_POSITION
 fi
