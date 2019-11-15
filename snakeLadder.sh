@@ -5,3 +5,7 @@
 
 echo "Welcome to Snake And Ladder"
 
+PLAYER=1;
+START_POSITION=0;
+END_POSITION=100;
+
